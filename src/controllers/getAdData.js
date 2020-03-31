@@ -10,7 +10,7 @@ function getAdData(ctx) {
   } = require('./../data/setting.json')
   ctx.body = JSON.stringify({
     "adId": "0",
-    "picture": `http://${port}:${host}/ad.jpg`,
+    "picture": `http://${host}:${port}/ad.jpg`,
     "title": "南京大学",
     "info": "做中国最好的本科教育"
   })
