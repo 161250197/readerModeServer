@@ -1,0 +1,32 @@
+[
+  {
+    "bookId": "1",
+    "cover": "http://localhost:8888/带着智能横扫异界.jpeg",
+    "novelName": "带着智能横扫异界"
+  },
+  {
+    "bookId": "2",
+    "cover": "http://localhost:8888/太荒吞天诀.jpeg",
+    "novelName": "太荒吞天诀"
+  },
+  {
+    "bookId": "3",
+    "cover": "http://localhost:8888/浑天记.jpeg",
+    "novelName": "浑天记"
+  },
+  {
+    "bookId": "4",
+    "cover": "http://localhost:8888/猎天争锋.jpeg",
+    "novelName": "猎天争锋"
+  },
+  {
+    "bookId": "5",
+    "cover": "http://localhost:8888/龙战垣野.jpeg",
+    "novelName": "龙战垣野"
+  },
+  {
+    "bookId": "6",
+    "cover": "http://localhost:8888/踏破太古.jpeg",
+    "novelName": "踏破太古"
+  }
+]
