@@ -83,16 +83,6 @@ yarn start
 | 请求参数 | adId: String // 可选参数 广告id：唯一标识符字符串            |
 | 返回数据 | {<br />&nbsp;&nbsp;adId: String, // 广告id：唯一标识符字符串<br />&nbsp;&nbsp;picture: String, // 图片：图片url字符串<br />&nbsp;&nbsp;title: String, // 标题：字符串<br />&nbsp;&nbsp;info: String, // 描述：字符串<br />} |
 
-### 获取小说来源列表
-
-| 项目     | 内容                                                         |
-| -------- | ------------------------------------------------------------ |
-| 接口名   | getNovelSources                                              |
-| 描述     | 以阅读网络小说为例，用于提供给前端以获取小说来源列表         |
-| 请求方法 | POST                                                         |
-| 请求参数 | {<br />&nbsp;&nbsp;novelName: String, // 小说名：字符串<br />&nbsp;&nbsp;authorName: String, // 作者名：字符串<br />} |
-| 返回数据 | [<br />&nbsp;&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;domain: String, // 域名：字符串<br />&nbsp;&nbsp;&nbsp;&nbsp;siteName: String, // 站点名称：字符串<br />&nbsp;&nbsp;},<br />&nbsp;&nbsp;...<br />] |
-
 ### 获取推荐小说列表
 
 | 项目     | 内容                                                         |

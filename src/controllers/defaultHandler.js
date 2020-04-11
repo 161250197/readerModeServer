@@ -7,7 +7,7 @@ function defaultHandler(ctx) {
 function defaultHandlerOptions(ctx) {
   require('./../util/crossOriginHelper')(ctx);
   ctx.body = 200;
-  console.log('[SUCCESS] getNovelSourcesOptions');
+  console.log('[SUCCESS] defaultHandler');
 }
 
 module.exports = {
